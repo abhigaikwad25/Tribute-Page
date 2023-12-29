@@ -1,0 +1,92 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header #img_p1{
+  height: 660px;
+  width: 500px;
+  margin-top: 40px;
+  background: #c7c7c7;
+  border-radius: 42px;
+  box-shadow:  30px 30px 61px #e94e1f,
+             -30px -30px 61px #e94e1f;
+}
+
+.main-section{
+  text-align: start;
+  padding-top: 320px;
+}
+
+.main-section span{
+  color: rgb(244, 43, 3);
+}
+
+main {
+  height: 800px;
+  /* margin: 20px auto; */
+  padding: 0 20px;
+  color: #fff;
+  background-color: #000000;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.tribute-info{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.tribute-info h2{
+  color: #e94e1f;
+}
+
+.tribute-info img{
+  margin: 150px 0 0px 0;
+}
+
+.tribute-info figcaption{
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
+}
+
+.img_p2 img{
+  border-radius: 42px;
+  background: #c7c7c7;
+  box-shadow:  30px 30px 61px #e94e1f,
+             -30px -30px 61px #e94e1f;
+}
+
+
+#bio {
+  margin-top: 60px;
+  width: 600px;
+} 
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #000000;
+  color: #fff;
+}
